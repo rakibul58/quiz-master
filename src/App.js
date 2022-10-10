@@ -1,10 +1,16 @@
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
-import { Bars3Icon } from '@heroicons/react/24/solid'
+import NavBar from './components/NavBar/NavBar';
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <NavBar></NavBar>
+    }
+  ])
   return (
     <div className="App">
-      <Bars3Icon className='h-6 w-6'></Bars3Icon>
-      <h1>Tailwind css</h1>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
