@@ -36,7 +36,7 @@ const Questions = ({ question, count }) => {
     }
   };
   return (
-    <div className="rounded-lg shadow-lg shadow-green-200 p-8 mb-20 w-fit lg:w-2/3 mx-auto">
+    <div className="rounded-lg shadow-lg shadow-green-200 p-8 mb-20 w-full lg:w-2/3 mx-auto">
       <EyeIcon
         onClick={() => setAnswer(!answer)}
         className="h-6 w-6 ml-auto"
@@ -47,7 +47,7 @@ const Questions = ({ question, count }) => {
       <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4">
         {options.map((option) => (
           <button key={option}
-            className="border-2 border-green-200 hover:bg-green-200 text-gray-500 text-sm sm:font-semibold py-3 px-2 rounded-lg"
+            className="border-2 border-green-200 hover:bg-green-200 text-gray-500 text-sm lg:text-xl sm:font-semibold py-3 px-2 rounded-lg"
             onClick={() => handleCheckAnswer(`${option}`)}
           >
             {option}
