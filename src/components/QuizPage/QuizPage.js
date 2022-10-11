@@ -5,6 +5,7 @@ import Questions from '../Questions/Questions';
 const QuizPage = () => {
     const topicQuizzes = useLoaderData();
     const {name , questions} = topicQuizzes.data;
+   
     let count = 0;
     return (
         <div className='text-center mt-12'>
@@ -15,6 +16,7 @@ const QuizPage = () => {
                     key={question.id}
                     question={question}
                     count={++count}
+                 
                     ></Questions>)
                 }
             </div>
