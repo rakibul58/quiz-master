@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Questions = ({ question, count }) => {
   const { options, correctAnswer } = question;
   const [answer, setAnswer] = useState(false);
-  // console.log(options[0]);
+  // console.log(options);
   const CloseButton = ({ closeToast }) => (
     <p></p>
   );
@@ -46,7 +46,7 @@ const Questions = ({ question, count }) => {
       </h2>
       <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4">
         {options.map((option) => (
-          <button
+          <button key={option}
             className="border-2 border-green-200 hover:bg-green-200 text-gray-500 text-sm sm:font-semibold py-3 px-2 rounded-lg"
             onClick={() => handleCheckAnswer(`${option}`)}
           >
