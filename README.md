@@ -1,9 +1,17 @@
-## Project Name
+# Quiz Master
 
-Quiz Master
-
-## Live Site Link :  
+## Live Site Link  
 https://quizzmaster.netlify.app/
+
+# Descriptions
+
+The feature of this project is bellow:
+
+* Dynamically Loads Topic From the API
+* Dynamically Loads the Quiz in Dynamic Link
+* Shows the whether the answer is right or wrong using toast
+* Can see the correct answer by clicking the eye icon
+* Custom 404 page available for wrong url such as https://quizzmaster.netlify.app/blogggs
 
 # Getting Started with Create React App
 
