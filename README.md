@@ -1,85 +1,119 @@
 # Quiz Master
 
-## Live Site Link  
-https://quizzmaster.netlify.app/
+## Live Site  
+Check out the live site: [Quiz Master](https://quizzmaster.netlify.app/)
 
-# Descriptions
+---
 
-The feature of this project is bellow:
+## 📖 Project Description  
 
-* Dynamically Loads Topic From the API
-* Dynamically Loads the Quiz in Dynamic Link
-* Shows the whether the answer is right or wrong using toast
-* Can see the correct answer by clicking the eye icon
-* Custom 404 page available for wrong url such as https://quizzmaster.netlify.app/blogggs
+**Quiz Master** is a dynamic quiz application that provides users with interactive quizzes. The app dynamically loads quiz topics and questions from an API, offering a seamless and engaging experience for users.  
 
-# Getting Started with Create React App
+### Key Features  
+
+- **Dynamic Topic Loading**  
+  Quiz topics are fetched dynamically from the API to provide fresh content.  
+
+- **Dynamic Quiz Pages**  
+  Individual quizzes are loaded dynamically through unique links for each topic.  
+
+- **Real-Time Answer Feedback**  
+  Users get instant feedback on whether their answer is correct or incorrect via toast notifications.  
+
+- **Reveal Correct Answers**  
+  A handy eye icon allows users to reveal the correct answer for each question.  
+
+- **Custom 404 Page**  
+  A user-friendly 404 error page ensures a better experience for invalid URLs like [https://quizzmaster.netlify.app/blogggs](https://quizzmaster.netlify.app/blogggs).  
+
+---
+
+## 🛠️ Technologies Used  
+
+- **Frontend**: React.js  
+- **Styling**: Tailwind CSS  
+- **API Integration**: Dynamic API loading for quizzes and topics  
+- **Notifications**: React Toast for answer feedback  
+- **Routing**: React Router for dynamic and nested routes  
+
+---
+
+## 🚀 Getting Started  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Prerequisites  
 
-In the project directory, you can run:
+Before you begin, ensure you have the following installed on your machine:  
+- Node.js (v14 or later)  
+- npm (v6 or later)  
 
-### `npm start`
+### Installation  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:  
+   ```bash  
+   git clone [https://github.com/rakibul58/quiz-master.git](https://github.com/rakibul58/quiz-master.git)  
+   ```  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate to the project directory:  
+   ```bash  
+   cd quiz-master  
+   ```  
 
-### `npm test`
+3. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Start the development server:  
+   ```bash  
+   npm start  
+   ```  
 
-### `npm run build`
+The app will run locally at [http://localhost:3000](http://localhost:3000).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧪 Features Overview  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔹 Dynamic Topic Loading  
+The app fetches topics dynamically from a REST API, ensuring fresh and updated quiz content for users.  
 
-### `npm run eject`
+### 🔹 Dynamic Quiz Pages  
+Each quiz is accessible through a dynamic link, allowing the app to handle quizzes uniquely for every topic.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🔹 Real-Time Feedback  
+Using React Toast, users receive immediate feedback about their answers, enhancing interactivity.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🔹 Correct Answer Reveal  
+Click the eye icon to reveal the correct answer to any question, aiding in learning and self-assessment.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🔹 Custom 404 Page  
+An engaging 404 page is designed for invalid routes, ensuring users don’t encounter generic error pages.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🧑‍💻 Development  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To contribute to this project:  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the repository.  
+2. Create a new branch:  
+   ```bash  
+   git checkout -b feature/your-feature-name  
+   ```  
+3. Make your changes and commit them:  
+   ```bash  
+   git commit -m "Add your message here"  
+   ```  
+4. Push to the branch:  
+   ```bash  
+   git push origin feature/your-feature-name  
+   ```  
+5. Create a pull request.  
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📜 License  
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and available under the MIT License.  
